@@ -1,0 +1,98 @@
+body{
+    display: flex;
+}
+
+.sidebar{
+    width: 200px;
+    align-items: center;
+
+}
+.Tayba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+ /* h1{
+    color: rgb(99, 15, 15);
+} */
+
+.Tayba h1{
+    font-size: 40px;
+}
+
+.mainlista{
+    margin-bottom: 20%;
+    
+}
+h1{
+    color: black;
+    font-size: 20px;
+
+}
+li{
+    list-style-type: none;
+    color: gray;
+    padding: 10px;
+    transition-duration: 1000ms;
+    transition-delay: 500ms;
+    transition-property: background, color;
+}
+.home{
+    width: 100%;
+    flex: 6;
+}
+.navbar{
+    width: 100;
+    border-bottom: 1px solid gray;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.navbar input{
+    padding: 7px;
+    border-radius: 20%;
+    border: 1px solid gray;
+}
+.blanko{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.navbar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.zaslike{
+display: flex;
+align-items: center;
+}
+li:hover{
+    background-color: rgba(128, 128, 128, 0.37);
+    color: black;
+    transition: 800ms;
+
+}
+.kartice{
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+.card{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 100px;
+}
+.card:hover{
+    background-color: grey;
+    transition-duration: 300ms;
+    transition-delay: 400ms;
+    transition-property: background, color;
+}
